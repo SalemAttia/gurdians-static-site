@@ -8,6 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import Helmet from 'react-helmet'
 
 import Header from "./header"
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -27,6 +28,15 @@ const Layout = ({ children }) => {
 
   return (
     <>
+    <Helmet
+      title={data.site.siteMetadata.title}
+      meta={
+        [
+          {name:'description', content:'this guardins site'},
+          {name:'keywords', content:'web development'},
+        ]
+      }
+    />
       <Header siteTitle={data.site.siteMetadata.title} />
       <div>
         <main>{children}</main>
