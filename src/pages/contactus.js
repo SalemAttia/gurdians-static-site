@@ -1,15 +1,13 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layouts/layout"
+import Contact from '../components/Contact/Contact'
 import SEO from "../components/seo"
 
 const Contactus = () => (
   <Layout>
-    <SEO title="Page two" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+    <SEO title="contact us" />
+    <Contact></Contact>
   </Layout>
 )
 
