@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono&display=swap');
+
+.TechStack {
+  margin: 50px auto;
+}
+
+.TechStack .banner {
+  position: relative;
+  z-index: 5;
+  width: 128px !important;
+  height: 128px !important;
+  border-radius: 50%;
+  background-color: #fff;
+  display: inline-block;
+  margin: 0 auto;
+  -webkit-box-shadow: 0 15px 30px 0 rgba(162, 184, 193, .14), 0 5px 15px 0 rgba(76, 55, 55, .12);
+  box-shadow: 0 15px 30px 0 rgba(162, 184, 193, .14), 0 5px 15px 0 rgba(76, 55, 55, .12);
+}
+
+.TechStack .banner #logo {
+  height: 80px !important;
+  margin: 25px auto;
+}
+
+.TechStack .r {
+  right: -15px;
+  z-index: 4;
+}
+
+.TechStack .l {
+  left: -15px;
+  z-index: 4;
+}
+
+.TechStack .content {
+  margin: 35px auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+.TechStack .content h5 {
+  color: #172a3d;
+  margin-bottom: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+
+.TechStack .content p {
+  FONT-SIZE: 15px;
+  color: #172a3d;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.TechStack .head {
+  margin: 45px auto;
+  margin-bottom: 20px !important;
+}
+
+.TechStack .head h5 {
+  font-size: 19px;
+  text-transform: capitalize;
+  color: #172a3d;
+  font-weight: 900;
+  display: inline-block;
+  width: 20%;
+  font-family: 'Roboto';
+}
+
+.TechStack .head hr {
+  margin: 5px auto;
+  background-color: #767575;
+  opacity: .85;
+  height: 0px;
+  width: 80%;
+  display: inline-block;
+}
+.TechStack .stacks{
+  border-left: 1.5px solid #21252975;
+  margin-top: 4rem;
+  padding: 0 20px;
+      overflow: auto;
+}
+.TechStack .stacks h5{
+  color: #172a3d;
+  margin-bottom: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.1;
+  font-family: 'Roboto',sans-serif;;
+  display: block;
+}
+ list-style: none;
+ .TechStack .stacks ul{
+ width: 100%;
+ display: block;
+}
+.TechStack .stacks  ul::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+.TechStack .stacks ul li{
+  color: #172a3d;
+    font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+  margin-left: 10px;
+list-style: none;
+float: left;
+margin-right: 25px;
+}
+.TechStack .stacks ul li::before{
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #19759; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+
+}
+/*media query*/
+@media screen only and (max-width:1366px) {}
+
+@media screen only and (max-width:1024px) {}
+
+@media only screen and (max-width:590px) {
+  .TechStack .banner {
+    width: 90px !important;
+    height: 90px !important;
+  }
+
+  .TechStack .banner #logo {
+    width: 55px !important;
+    height: 55px !important;
+    margin: 25% auto;
+  }
+
+  .TechStack .content {
+    text-align: center;
+  }
+
+  .TechStack .head h5 {
+    width: 75%;
+  }
+
+  .TechStack .head hr {
+    width: 15%;
+    float: right;
+    margin: 10px auto;
+  }
+}
