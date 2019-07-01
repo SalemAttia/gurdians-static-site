@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono&display=swap');
+html {
+  font-family: system-ui;
+  -webkit-font-smoothing: antialiased;
+  /* padding: 20px 0; */
+}
+
+.band {
+  width: 90%;
+  max-width: 1240px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+  border-radius:4px;
+  font-family: 'Roboto', sans-serif;
+}
+@media (min-width: 30em) {
+  .band {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 60em) {
+  .band {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.card {
+  width: 90%;
+margin: 40px auto;
+
+  background: white !important;
+  text-decoration: none !important;
+  color: #444 !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  min-height: 100% !important;
+  position: relative !important;
+  top: 0 !important;
+  transition: all 0.1s ease-in !important;
+  border-radius:4px !important;
+}
+.card article {
+  padding: 20px !important;
+  flex: 1 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+}
+.card h1 {
+      font-weight: 600;
+  font-size: 20px !important;
+  margin: 0 !important;
+  color: #333 !important;
+}
+.card p {
+  margin-top:10px !important;
+  flex: 1 !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  color: #999 !important;
+  line-height: 1.4 !important;
+  font-family: 'Roboto Mono', monospace;
+}
+.card .read {
+  text-decoration:none !important;
+  font-size: 12px !important;
+  font-weight: bold !important;
+  color: #999 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  margin: 2em 0 0 0 !important;
+}
+.card .thumb {
+  border-radius:4px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius:  0;
+
+  padding-bottom: 60% !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  background-image: url(/assets/img/bg-img/code.jpg);
+}
