@@ -83,3 +83,24 @@ margin: 40px auto;
   background-position: center center !important;
   background-image: url(/assets/img/bg-img/code.jpg);
 }
+.blogheade .head {
+  margin: 45px auto;
+  margin-bottom: 20px !important;
+}
+.blogheade hr {
+  margin: 5px auto;
+  background-color: #767575;
+  opacity: .85;
+  height: 0px;
+  width: 80%;
+  display: inline-block;
+}
+.blogheade h5 {
+  font-size: 19px;
+  text-transform: capitalize;
+  color: #172a3d;
+  font-weight: 900;
+  display: inline-block;
+  width: 20%;
+  font-family: 'Roboto';
+}

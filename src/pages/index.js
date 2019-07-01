@@ -6,12 +6,13 @@ import TechStack from "../components/TechStack/TechStack"
 import Blog from "../components/Blog/Blog"
 import SEO from "../components/seo"
 
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home"/>
     <Banner></Banner>
     <TechStack></TechStack>
-    <Blog></Blog>
+    <Blog title="recent blog"></Blog>
   </Layout>
 )
 

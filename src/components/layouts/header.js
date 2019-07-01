@@ -2,8 +2,19 @@ import PropTypes from "prop-types"
 import React from "react"
 import { Link } from "gatsby"
 
-const Header = ({ siteTitle }) => (
-  <header className="header_area animated">
+const Header = ({ siteTitle }) => {
+  console.log(window.location.pathname);
+  var color = 'none'
+  var position = 'absolute'
+  if(window.location.pathname !== '/'){
+    color = '#3A3C44'
+    position = 'relative'
+  }
+  
+  return (<header className="header_area animated" style={{
+    background: color,
+    position: position,
+  }}>
   <div className="container-fluid">
       <div className="row align-items-center">
 
@@ -33,7 +44,8 @@ const Header = ({ siteTitle }) => (
       </div>
   </div>
 </header>
-)
+);
+}
 
 Header.propTypes = {
   siteTitle: PropTypes.string,

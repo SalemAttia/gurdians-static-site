@@ -1,15 +1,16 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layouts/layout"
 import SEO from "../components/seo"
+import MainContent from "../components/MainContent/MainContent"
+import OpenSourceComponent from '../components/OpenSource/OpenSource'
 
 const OpenSource = () => (
   <Layout>
-    <SEO title="Page two" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+    <SEO title="Open Source" />
+    <MainContent>
+      <OpenSourceComponent></OpenSourceComponent>
+    </MainContent>
   </Layout>
 )
 
