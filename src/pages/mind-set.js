@@ -1,15 +1,16 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layouts/layout"
+import MainContent from "../components/MainContent/MainContent"
+import MindSetComponent from '../components/MindSetComponent/MindSetComponent'
 import SEO from "../components/seo"
 
 const MindSet = () => (
   <Layout>
-    <SEO title="Page two" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+    <SEO title="mind set" />
+    <MainContent>
+      <MindSetComponent></MindSetComponent>
+    </MainContent>
   </Layout>
 )
 
