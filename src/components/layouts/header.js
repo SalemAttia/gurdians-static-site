@@ -3,7 +3,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) => {
-  console.log(window.location.pathname);
+
   var color = 'none'
   var position = 'absolute'
   if(window.location.pathname !== '/'){
