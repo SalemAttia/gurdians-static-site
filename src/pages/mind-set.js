@@ -9,7 +9,7 @@ const MindSet = () => (
   <Layout>
     <SEO title="mind set" />
     <MainContent>
-      <MindSetComponent></MindSetComponent>
+      <MindSetComponent title="Mind set"></MindSetComponent>
     </MainContent>
   </Layout>
 )
