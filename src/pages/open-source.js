@@ -9,7 +9,7 @@ const OpenSource = () => (
   <Layout>
     <SEO title="Open Source" />
     <MainContent>
-      <OpenSourceComponent></OpenSourceComponent>
+      <OpenSourceComponent title="Open Source"></OpenSourceComponent>
     </MainContent>
   </Layout>
 )
