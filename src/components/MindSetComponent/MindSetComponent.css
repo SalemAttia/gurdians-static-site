@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono&display=swap');
+
+.mindset{
+font-family:  'Roboto',sans-serif  ;
+margin-bottom: -100px;
+margin-top: 
+}
+h1,h2,h3,h4,h5,h6,span{
+	font-family:  'Roboto',sans-serif  ;
+}
+.mindset  .head {
+  margin: 45px auto ;
+  margin-bottom: 20px ;
+}
+.mindset  hr {
+  margin: 5px auto ;
+  background-color: #767575 ;
+  opacity: .85 ;
+  height: 0px ;
+  width: 80% ;
+  display: inline-block ;
+}
+.mindset  h5 {
+  font-size: 19px ;
+  text-transform: capitalize ;
+  color: #172a3d ;
+  font-weight: 900 ;
+  display: inline-block ;
+  width: 20% ;
+  font-family: 'Roboto',sans-serif ;
+}
+.mindset h2{
+	  font-size: 25px ;
+    text-transform: capitalize ;
+    color: #172a3d ;
+    font-weight: 900 ;
+    margin-bottom: 2rem;
+}
+.mindset .first{
+	background-size: cover ;
+  background-position: center center ;
+  background-image: url(/assets/img/favicon/01.svg);
+  height: 290px;
+  margin-bottom: 30px;
+}
+.mindset .second{
+    background-position-x: 10%;
+    background-repeat: no-repeat;
+    background-image: url(/assets/img/favicon/2.svg);
+    height: 450px;
+    margin-bottom: 30px;
+        position: relative;
+    bottom: -20px;
+}
+.mindset .fourth{
+height: 290px;
+  margin-bottom: 30px;
+      position: relative;
+    top: -160px;
+
+}
+.mindset .fourth img{
+	width: 700px;
+}
+.mindset .third{
+	position: relative;
+    top: -160px;
+}
+.mindset .third img{
+	    width: 500px;
+    position: relative;
+    top: -220px;
+    right: -125px;
+}
+.mindset .fifth{
+height: 290px;
+  margin-bottom: 30px;
+      position: relative;
+    top: -175px;
+
+}
+.mindset .fifth .image{
+    position: relative;
+    top: -175px;
+    left: -135px;
+}
+.mindset h3{
+	  font-size: 22px ;
+    text-transform: capitalize ;
+    color: #172a3d ;
+    font-weight: 900 ;
+    margin-bottom: 1rem;
+}
+.mindset p{
+    margin-top: 10px ;
+    flex: 1 1 ;
+    font-size: 15px ;
+    font-weight: 500 ;
+    line-height: 2 ;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/*media query*/
+@media screen only and (max-width:1366px) {
+	.mindset .third .col-md-6{
+    max-width: 41.666667%;
+	}		
+}
+
+@media screen only and (max-width:1024px) {
+.mindset p {
+    margin-top: 10px;
+    flex: 1 1;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.8;
+    font-family: 'Roboto Mono', monospace;
+}	
+.mindset .fifth .image {
+    position: relative;
+    top: -20px;
+    left: -135px;
+}
+	.mindset .fourth img {
+    width: 515px ; 
+}
+		.mindset .second {
+	    background-position-x: -55% ;
+	    background-repeat: no-repeat ;
+	    background-image: url(/assets/img/favicon/2.svg);
+	    height: 400px ;
+	    margin-bottom: 30px ;
+	    position: relative ;
+	    bottom: -10px ;
+	}
+}
+
+@media only screen and (max-width:590px) {
+  .mindset .first,.mindset .second,.mindset .third,.mindset .fourth,.mindset .fifth{
+  	height: auto;;
+  	background-image: none;
+  	    position: unset;
+  	    margin-bottom: 35px;
+  }
+  .mindset .third img{
+  	display: none;
+  }
+  .dnone{
+  	display: none;
+  }
+}

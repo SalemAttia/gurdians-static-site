@@ -15,6 +15,7 @@ const IndexPage = () => (
     <Banner></Banner>
     <TechStack></TechStack>
     <Blog title="recent blog"></Blog>
+    <MindSet title="Mind Set"></MindSet>
   </Layout>
 )
 
