@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono&display=swap');
+
+.open-source{
+font-family:  'Roboto',sans-serif  ;
+ margin:50px auto;
+}
+h1,h2,h3,h4,h5,h6,span{
+	font-family:  'Roboto',sans-serif  ;
+}
+.open-source  .head {
+  margin: 45px auto ;
+  margin-bottom: 20px ;
+}
+.open-source  hr {
+  margin: 5px auto ;
+  background-color: #767575 ;
+  opacity: .85 ;
+  height: 1px ;
+  width: 80% ;
+  display: inline-block ;
+}
+.open-source h5 {
+	font-size: 19px;
+    text-transform: capitalize;
+    color: #172a3d;
+    font-weight: 900;
+    display: inline-block;
+    width: 20%;
+    font-family: 'Roboto';
+}
+.open-source .line{
+border-bottom:2px solid #767575 ;
+  margin: 25px auto ;
+ /* opacity: .85 ;*/
+  width: 100% ;
+  display: inline-block ;	
+}
+.open-source .top{
+margin-bottom: 20px;
+}
+.open-source .top .header{
+color: #197593;
+border-bottom: 1px solid rgba(25,117,147,.25);
+font-size: 20px;
+font-family: 'Roboto',sans-serif;
+font-weight: 700;
+}
+.open-source .top .header:hover{
+	color: #004966;
+	border-bottom: 1px solid rgba(25,117,147,.5);
+}
+
+.open-source .top p{
+	color: #172a3d;
+	font-size: 20px;
+	font-family: 'Roboto',sans-serif;
+}
+.open-source .bottom .a,.open-source .top .a{
+color: #767575 !important;	
+font-size: 15px!important;
+border-bottom:1px solid hsla(0,0%,46%,.25)!important;
+}
+.open-source .bottom .a:hover ,.open-source .top .a:hover{
+color: #686666!important;
+border-bottom:1px solid hsla(0,0%,46%,.5)!important;
+}
+.open-source .bottom{
+margin-bottom: 20px;
+}
+.open-source .bottom ul li:nth-child(1){
+font-weight: bold;
+} 
+.open-source .bottom ul li{
+	    float: left;
+	    color: #767575;
+    margin-right: 5px;
+
+}
+.open-source .bottom ul li:not(:nth-child(1))::before{
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #197593; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: 0em; /* Also needed for space (tweak if needed) */
+
+}
+.open-source .badge-primary{
+	color: #51492c;
+	background: #eee8d6;
+font-family: 'Roboto Mono', monospace;
+	font-weight: normal;
+}
