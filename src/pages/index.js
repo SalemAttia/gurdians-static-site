@@ -14,9 +14,7 @@ const IndexPage = () => (
     <SEO title="Home"/>
     <Banner></Banner>
     <TechStack></TechStack>
-    <OpenSource title="Open Source"></OpenSource>
     <Blog title="recent blog"></Blog>
-    <MindSet title="Mind Set"></MindSet>
   </Layout>
 )
 
