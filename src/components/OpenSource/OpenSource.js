@@ -15,7 +15,7 @@ const OpenSource = ({title}) =>{
         <div class="row">
             <div class="col-md-4 col-xs-12">
                 <div class="top">
-                    <a href="#" className="header">
+                    <a href="/" className="header">
                                    laravel-permission
                                 </a>
                 </div>
@@ -48,7 +48,7 @@ const OpenSource = ({title}) =>{
         <div class="row">
             <div class="col-md-4 col-xs-12">
                 <div class="top">
-                    <a href="#" className="header">
+                    <a href="/" className="header">
                                    laravel-permission
                     </a>
                 </div>
@@ -75,12 +75,12 @@ const OpenSource = ({title}) =>{
             </div>
             <div class="col-md-2 col-xs-12">
                 <div className="top">
-                    <a href="#" className="a"> 
+                    <a href="/" className="a"> 
                         intoduction
                     </a>
                 </div>
                 <div className="bottom">
-                    <a href="#" className="a">
+                    <a href="/" className="a">
                         Documentaion
                     </a>
                 </div>                
@@ -91,7 +91,7 @@ const OpenSource = ({title}) =>{
         <div class="row">
             <div class="col-md-4 col-xs-12">
                 <div class="top">
-                    <a href="#" className="header">
+                    <a href="/" className="header">
                                    Javascrpt
                     </a>
                 </div>
@@ -120,18 +120,18 @@ const OpenSource = ({title}) =>{
             </div>
             <div class="col-md-2 col-xs-12">
                 <div className="top">
-                    <a href="#" className="a"> 
+                    <a href="/" className="a"> 
                         intoduction
                     </a>
                 </div>
                 <div className="bottom">
-                    <a href="#" className="a">
+                    <a href="/" className="a">
                         Documentaion
                     </a>
                 </div>                
             </div>
 
-            <div class="line"></div>
+            <div className="line"></div>
         </div>                
     </div>
 </section>

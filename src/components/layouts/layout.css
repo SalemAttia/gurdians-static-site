@@ -1351,6 +1351,8 @@ footer {
     background-color: #138B93;
     padding: 25px 0 0;
     color: #ffffff !important;
+    bottom: 0;
+    position: inherit;
 }
 
 footer p {
