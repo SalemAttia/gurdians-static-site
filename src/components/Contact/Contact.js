@@ -2,7 +2,7 @@ import React from 'react'
 import './contact.css';
 const Contact = () => {
     return (
-<footer>
+<section id="ContactUS">
     <div className="container">
       <div className="row">
             <div className="col-12 text-center">
@@ -26,8 +26,8 @@ const Contact = () => {
                                 <div className="form-group col-12">
                                    <textarea className="form-control" placeholder="Your Message"></textarea>
                                 </div>
-                                <div class="form-group col-12 text-center">
-                                    <button type="submit" class="btn btn-light">Submit</button>
+                                <div className="form-group col-12 text-center">
+                                    <button type="submit" className="btn btn-light">Submit</button>
                                 </div>
                         </div>
                     </form>
@@ -38,15 +38,16 @@ const Contact = () => {
             <div className="col-12">
                 <div className="icons m-auto">
                     <ul className="list-unstyled ">
-                        <li><a href="#"> <i className="fa fa-facebook fa-2x"></i></a> </li>
-                        <li><a href="#"> <i className="fa fa-twitter fa-2x"></i></a> </li>
-                        <li><a href="#"> <i className="fa fa-linkedin fa-2x"></i></a> </li>
+                        <li><a href="https://facebooc.com"> <i className="fa fa-facebook fa-2x"></i></a> </li>
+                        <li><a href="https://twitter.com"> <i className="fa fa-twitter fa-2x"></i></a> </li>
+                        <li><a href="https://linkedin.com"> <i className="fa fa-linkedin fa-2x"></i></a> </li>
                     </ul>
                 </div>
             </div>
         </div> 
     </div>
-</footer>
+    <br /><br />
+</section>
     )
 
 }

@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono&display=swap');
-footer{
+section{
 	padding: 100px 0 10px 0;
 }
-footer h2{
+section h2{
     font-size: 35px;
     text-transform: capitalize;
     color: #172a3d;
@@ -10,10 +10,10 @@ footer h2{
     margin-bottom: 5rem;
     font-family: 'Roboto',sans-serif;
 }
-footer  .contact{
+section  .contact{
 	width: 75%;
 }
-footer  .contact .form-control{
+section  .contact .form-control{
 	background: transparent;
     border: none;
     border-bottom: 2px solid #172a3d;
@@ -34,31 +34,31 @@ font-family: 'Roboto',sans-serif;
 .form-control::-ms-input-placeholder { /* Microsoft Edge */
  color: #172a3d;
 }
-footer  .contact .form-control:focus,footer  .contact .form-control:active{
+section  .contact .form-control:focus,section  .contact .form-control:active{
 	 border: none !important;
     border-bottom: 2px solid #172a3d !important;
 
 }
-footer  .contact .form-group:focus,footer  .contact .form-group:active{
+section  .contact .form-group:focus,section  .contact .form-group:active{
 	 border: none;
 }
-footer  .contact .form-control:hover,footer .contact textarea:hover{
+section  .contact .form-control:hover,section .contact textarea:hover{
 	padding-bottom: 15px;
 	transition: .2s ease-in;
 }
-footer  .contact .form-group  textarea:focus,
-footer  .contact .form-group  input[type="text"]:focus,
-footer  .contact .form-group  input[type="password"]:focus,,
-footer  .contact .form-group  input[type="email"]:focus{   
+section  .contact .form-group  textarea:focus,
+section  .contact .form-group  input[type="text"]:focus,
+section  .contact .form-group  input[type="password"]:focus,,
+section  .contact .form-group  input[type="email"]:focus{   
  border: none !important;
     border-bottom: 2px solid #172a3d !important;
 }
-footer  .contact .form-group .form-control:focus {
+section  .contact .form-group .form-control:focus {
 
   border: none !important;
    border-bottom: 2px solid #172a3d !important; 
 }
-footer  .contact .form-group .btn-light{
+section  .contact .form-group .btn-light{
 	background: transparent;
     border-radius: 7px;
     width: 40%;
@@ -69,7 +69,7 @@ footer  .contact .form-group .btn-light{
     border:2px solid #172a3d;
     font-family: 'Roboto',sans-serif;
 }
-footer  .contact .form-group .btn-light:hover,.icons ul li:hover{
+section  .contact .form-group .btn-light:hover,.icons ul li:hover{
 	background-color: #172a3d !important;
 	color: #138B93 !important;
 	transition: .2s ease-in-out;
@@ -104,10 +104,10 @@ footer  .contact .form-group .btn-light:hover,.icons ul li:hover{
     color: #172a3d;
 }
 @media only screen and (max-width:590px) {
-	footer .contact{
+	section .contact{
 		width: 90%;
 	}
-	footer .contact .form-group .btn-light{
+	section .contact .form-group .btn-light{
 		width: 70%;
 	}
 }
