@@ -31,8 +31,6 @@ const Header = ({ siteTitle }) => {
                           <ul className="navbar-nav ml-auto" id="nav">
                               <li className="nav-item active"><Link className="nav-link" to="/">Home</Link></li>
                               <li className="nav-item"><Link className="nav-link" to="/technology-stack/">Technology Stack</Link></li>
-                              <li className="nav-item"><Link className="nav-link" to="/open-source">Open Source</Link></li>
-                              <li className="nav-item"><Link className="nav-link "to="/blog">Blog</Link></li>
                               <li className="nav-item"><Link className="nav-link "to="/mind-set">Mind Set</Link></li>
                               <li className="nav-item"><Link className="nav-link" to="/contactus">Contact Us</Link></li>
                           </ul>
