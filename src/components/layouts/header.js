@@ -6,10 +6,7 @@ const Header = ({ siteTitle }) => {
 
   var color = 'none'
   var position = 'absolute'
-  if(window.location.pathname !== '/'){
-    color = '#3A3C44'
-    position = 'relative'
-  }
+ 
   
   return (<header className="header_area animated" style={{
     background: color,
