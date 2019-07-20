@@ -1,19 +1,35 @@
 import PropTypes from "prop-types"
-import React from "react"
+import React, { Component } from "react"
 import { Link } from "gatsby"
 
-const Header = ({ siteTitle }) => {
+class Header extends Component {
 
-  var color = 'none'
-  var position = 'absolute'
-  if(window.location.pathname !== '/'){
-    color = '#3A3C44'
-    position = 'relative'
+  constructor({siteTitle}){
+    super(siteTitle);
+    this.state = {
+      color: 'none',
+      position: 'absolute'
+    }
+  }
+  componentDidMount(){
+    
+    const windowGlobal = typeof window !== 'undefined' && window;
+   
+    if(windowGlobal.location.pathname !== '/'){
+      this.setState(
+        {
+          color : '#3A3C44',
+          position : 'relative'
+        }
+      );
+
+    }
   }
   
+ render(){
   return (<header className="header_area animated" style={{
-    background: color,
-    position: position,
+    background: this.state.color,
+    position: this.state.position,
   }}>
   <div className="container-fluid">
       <div className="row align-items-center">
@@ -43,6 +59,7 @@ const Header = ({ siteTitle }) => {
   </div>
 </header>
 );
+}
 }
 
 Header.propTypes = {
